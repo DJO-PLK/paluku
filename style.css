@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(djo\ 3.jpg);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background: #474752;
+    color: rgb(34, 32, 32);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.profile a {
+    color: rgb(78, 75, 75);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    border-left: 5px solid #55b4a4;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #b8a958e7;
+    margin-bottom: 15px;
+    font-size: 22px;
+    display: ruby-base;
+}
+
+ul {
+    padding-left: 30px;
+    list-style: none;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    position: relative;
+}
+
+ul li::before {
+    content: '✔️';
+    color: #46584a;
+    font-weight: bold;
+    margin-right: 10px;
+}
